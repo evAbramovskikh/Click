@@ -1,6 +1,10 @@
 {
 	"extends": "./.svelte-kit/tsconfig.json",
 	"compilerOptions": {
+		"target": "ES2019",
+		"module": "ESNext",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
 		"allowJs": true,
 		"checkJs": true,
 		"esModuleInterop": true,
